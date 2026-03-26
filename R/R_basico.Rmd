@@ -1,0 +1,84 @@
+---
+title: "Introdução ao R para Biologia (Exemplo Misto)"
+author: "Rafael M Piergiorge"
+date: "`r format(Sys.Date(), '%d de %B de %Y')`"
+output: html_document
+---
+
+## Introdução ao R para Biologia
+
+Este notebook serve como um guia básico para a linguagem R, focando em aplicações relevantes para a biologia. Vamos começar com os fundamentos.
+
+### 1. Variáveis e Atribuição
+
+Em R, a atribuição de valores a variáveis pode ser feita usando `<-` ou `=`. Veja alguns exemplos com conceitos biológicos:
+
+````{r}
+# Exemplo: Número de espécies em um ecossistema
+num_species <- 150
+print(paste("Número de espécies:", num_species))
+
+# Exemplo: Concentração de uma solução (em M)
+concentration_buffer <- 0.5 # 0.5 Molar
+print(paste("Concentração do tampão:", concentration_buffer, "M"))
+````
+
+
+### 2. Tipos de Dados Básicos
+
+R lida com diversos tipos de dados, como numéricos, caracteres e lógicos. É importante entender o tipo de dado com o qual você está trabalhando.
+
+````{r}
+# Numérico (numeric): pode ser inteiro ou ponto flutuante
+ph_value <- 7.4
+print(paste("Tipo de ph_value:", class(ph_value)))
+
+# Caractere (character): para texto
+dna_sequence <- "ATGCGTACGTAGCTAGCATG"
+print(paste("Tipo de dna_sequence:", class(dna_sequence)))
+````
+
+## Funções em R
+
+Funções são blocos de código reutilizáveis. R já possui muitas funções embutidas, mas também podemos criar as nossas. Abaixo, um exemplo de função para calcular o conteúdo GC de uma sequência de DNA.
+
+````{r}
+# Criando sua própria função para calcular o conteúdo GC
+calculate_gc_content <- function(sequence) {
+  sequence <- toupper(sequence)
+  gc_count <- sum(gregexpr("G", sequence)[[1]] > 0) + sum(gregexpr("C", sequence)[[1]] > 0)
+  total_length <- nchar(sequence)
+  if (total_length == 0) {
+    return(0)
+  } else {
+    return((gc_count / total_length) * 100)
+  }
+}
+
+# Testando a função
+seq1 <- "ATGCGTACGTAGCTAGCATG"
+gc_seq1 <- calculate_gc_content(seq1)
+print(paste("Sequência 1:", seq1, ", Conteúdo GC:", round(gc_seq1, 2), "%"))
+````
+
+## Estruturas de Dados Avançadas: Data Frames
+
+Data Frames são essenciais para análise de dados tabulares em R, funcionando como tabelas. Cada coluna pode ter um tipo de dado diferente.
+
+````{r}
+# Exemplo: Dados de expressão gênica para vários genes e amostras
+gene_ids <- c("GeneA", "GeneB", "GeneC")
+expression_sample1 <- c(10.2, 5.8, 11.5)
+
+genome_data <- data.frame(
+  GeneID = gene_ids,
+  Sample1_Expression = expression_sample1
+)
+
+print("Data Frame de Dados Genômicos (Exemplo):")
+print(genome_data)
+````
+
+## Conclusão
+
+Este exemplo demonstra como o R Markdown permite uma integração fluida de texto e código, ideal para relatórios e análises biológicas. Você pode continuar adicionando seções e códigos conforme sua necessidade.
