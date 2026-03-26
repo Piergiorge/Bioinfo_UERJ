@@ -1,5 +1,5 @@
 ---
-title: "Introdução ao R para Biologia (Exemplo Misto)"
+title: "Introdução ao R para Biologia"
 author: "Rafael M Piergiorge"
 date: "`r format(Sys.Date(), '%d de %B de %Y')`"
 output: html_document
