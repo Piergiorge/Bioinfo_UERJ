@@ -78,7 +78,3 @@ genome_data <- data.frame(
 print("Data Frame de Dados Genômicos (Exemplo):")
 print(genome_data)
 ````
-
-## Conclusão
-
-Este exemplo demonstra como o R Markdown permite uma integração fluida de texto e código, ideal para relatórios e análises biológicas. Você pode continuar adicionando seções e códigos conforme sua necessidade.
