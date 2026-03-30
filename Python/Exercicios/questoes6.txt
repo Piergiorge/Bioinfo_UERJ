@@ -1,0 +1,5 @@
+1- Crie uma função que recebe uma sequência e retorna o GC%.
+
+2- Crie uma função que recebe (start, end) e retorna o tamanho.
+
+3- Crie uma função que recebe uma lista de genes e retorna apenas os que têm mais de 5 letras.
