@@ -1,0 +1,5 @@
+1- Dada uma lista de genes, imprima apenas os que começam com “A”.
+
+2- Conte quantos nucleotídeos “G” existem em uma sequência.
+
+3- Gere uma lista com todos os números de 1 a 100 que são divisíveis por 7.
