@@ -1,0 +1,5 @@
+Crie três variáveis representando um gene, um cromossomo e uma posição. Imprima tudo em uma frase.
+
+Peça ao usuário um nome de gene e imprima uma frase explicando sua função (inventada).
+
+Escreva um script que imprime seu nome 10 vezes.
