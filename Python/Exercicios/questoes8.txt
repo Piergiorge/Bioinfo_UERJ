@@ -1,0 +1,5 @@
+1- Leia um FASTA com SeqIO e imprima o tamanho de cada sequência.
+
+2- Use Seq para gerar o complemento reverso de uma sequência.
+
+3- Leia um arquivo GenBank e imprima todos os CDS.
