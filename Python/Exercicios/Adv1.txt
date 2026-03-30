@@ -20,8 +20,9 @@
 ordene
 remova o terceiro
 adicione um novo
+imprima a lista
 
-11- Dada uma lista de SNPs com duplicatas, remova repetições usando set().
+11- Dada uma lista de SNPs com duplicatas, remova repetições usando set(). Imprima o resultado.
 
 12- Some todos os números de uma lista manualmente (sem sum).
 
@@ -83,18 +84,23 @@ método reverse_complement()
 
 37- Leia um arquivo BED e encontre sobreposição entre regiões.
 
-38- Leia um arquivo VCF e conte quantas variantes são SNP e quantas são indels.
+Considere o seguinte código em Python:
+print(1.1 == (1 + 0.1))     # ?
+print(1.2 == (1 + 0.2))     # ?
+print(0.1 + 0.2 == 0.3)     # ?
+print(1.1 + 2.2 == 3.3)     # ?
+
+a) Quais linhas imprimem True e quais imprimem False?
+b) Explique por que algumas comparações funcionam e outras falham, mesmo parecendo matematicamente equivalentes.
 
 39- Dada uma lista de coordenadas, encontre todas as regiões que se sobrepõem.
 
 40- Dado um conjunto de genes, encontre quais aparecem em pelo menos 3 listas diferentes.
 
 41- Dada uma lista de sequências, encontre a maior ORF de cada uma.
-
+ 
 42- Implemente um tradutor DNA → proteína sem Biopython.
 
 43- Implemente um algoritmo que encontra todos os motivos "ATG...TAA/TAG/TGA" em uma sequência.
 
-44- Dado um arquivo com frequências alélicas, normalize todas para ALT.
-
-45- Dado um arquivo com coordenadas, encontre quais variantes caem dentro de ilhas CpG (igual ao seu script).
+44- Dado um arquivo com coordenadas, encontre quais variantes caem dentro de ilhas CpG (igual ao seu script).
