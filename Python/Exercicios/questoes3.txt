@@ -1,0 +1,16 @@
+1- Crie uma lista com 5 genes e:
+ordene
+remova o terceiro
+adicione um novo
+
+2- Dada uma lista de SNPs com duplicatas, use set() para remover repetições.
+
+3- Crie uma tupla com coordenadas genômicas (chr, start, end).
+
+4- Crie um dicionário com:
+{"BRCA1": "DNA repair", "TP53": "Tumor suppressor"}
+E:
+adicione um gene
+remova outro
+imprima apenas as chaves
+imprima apenas os valor
