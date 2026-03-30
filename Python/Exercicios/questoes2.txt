@@ -1,0 +1,11 @@
+1- Converta uma string "12345" em inteiro e some 10.
+
+2- Dado "ATGCGT", imprima:
+tamanho
+primeira letra
+última letra
+sequência invertida
+
+3- Verifique se uma sequência contém "CG".
+
+4- Teste se um número é par, ímpar, múltiplo de 3 ou múltiplo de 5.
