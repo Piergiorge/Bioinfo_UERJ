@@ -1,0 +1,100 @@
+1- Crie variáveis para um gene, cromossomo e posição. Imprima tudo em uma frase.
+
+2- Converta "12345" para inteiro e some 10.
+
+3- Peça ao usuário um gene e imprima "O gene X é importante para Y" (invente Y).
+
+4- Dada a sequência "ATGCGT", imprima: tamanho, primeira letra, última letra e sequência invertida.
+
+5- Verifique se "CG" aparece na sequência "ATGCGTACG".
+
+6- Conte quantos "A" existem em "AGCTTAGCAAA".
+
+7- Verifique se um número é par, ímpar ou múltiplo de 3.
+
+8- Dada uma idade, classifique como criança, adulto ou idoso.
+
+9- Verifique se uma sequência é válida (contém apenas A, T, C, G).
+
+10- Crie uma lista com 5 genes e:
+ordene
+remova o terceiro
+adicione um novo
+
+11- Dada uma lista de SNPs com duplicatas, remova repetições usando set().
+
+12- Some todos os números de uma lista manualmente (sem sum).
+
+13- Imprima apenas os genes que começam com “A”.
+
+14- Gere uma lista com todos os números de 1 a 100 divisíveis por 7.
+
+15- Conte quantos "G" existem em uma sequência usando for.
+
+16- Crie um dicionário {gene: função} e:
+adicione um gene
+remova outro
+imprima chaves e valores separadamente
+
+17- Dado um dicionário {gene: expressão}, encontre o gene mais expresso.
+
+18- Inverta um dicionário {gene: cromossomo} para {cromossomo: [genes]}.
+
+19- Leia um FASTA simples e conte quantos caracteres não são A, T, C ou G.
+
+20- Leia um TSV com coordenadas e imprima apenas as linhas do cromossomo 1.
+
+21- Escreva um arquivo contendo apenas os nomes dos genes de entrada.
+
+22- Leia um arquivo BED e calcule o tamanho de cada intervalo.
+
+23- Crie uma função que recebe uma sequência e retorna o GC%.
+
+24- Crie uma função que recebe (start, end) e retorna o tamanho.
+
+25- Crie uma função que recebe uma lista de genes e retorna apenas os que têm mais de 5 letras.
+
+26- Crie uma função que recebe uma lista de números e retorna média, mediana e variância.
+
+27- Dada uma lista de listas com coordenadas, transforme em uma lista de tuplas.
+
+28- Dado um texto com várias sequências, separe cada uma e calcule o GC% individual.
+
+29- Dado um dicionário {gene: [expressões]}, calcule a média de expressão de cada gene.
+
+30- Dada uma lista de SNPs "chr1:12345", separe cromossomo e posição em duas listas diferentes.
+
+31- Crie uma classe Gene com atributos: nome, cromossomo, start, end.
+método tamanho()
+método to_bed()
+
+32- Crie uma classe Sequencia com:
+atributo seq
+método gc()
+método reverse_complement()
+
+33- Crie uma classe VCF que lê um arquivo VCF e armazena variantes em uma lista.
+
+34- Leia um FASTA com Biopython e imprima o tamanho de cada sequência.
+
+35- Leia um GenBank e liste todos os CDS.
+
+36- Leia um arquivo GFF e conte quantos genes existem por cromossomo.
+
+37- Leia um arquivo BED e encontre sobreposição entre regiões.
+
+38- Leia um arquivo VCF e conte quantas variantes são SNP e quantas são indels.
+
+39- Dada uma lista de coordenadas, encontre todas as regiões que se sobrepõem.
+
+40- Dado um conjunto de genes, encontre quais aparecem em pelo menos 3 listas diferentes.
+
+41- Dada uma lista de sequências, encontre a maior ORF de cada uma.
+
+42- Implemente um tradutor DNA → proteína sem Biopython.
+
+43- Implemente um algoritmo que encontra todos os motivos "ATG...TAA/TAG/TGA" em uma sequência.
+
+44- Dado um arquivo com frequências alélicas, normalize todas para ALT.
+
+45- Dado um arquivo com coordenadas, encontre quais variantes caem dentro de ilhas CpG (igual ao seu script).
