@@ -84,7 +84,7 @@ método reverse_complement()
 
 37- Leia um arquivo BED e encontre sobreposição entre regiões.
 
-Considere o seguinte código em Python:
+38- Considere o seguinte código em Python:
 print(1.1 == (1 + 0.1))     # ?
 print(1.2 == (1 + 0.2))     # ?
 print(0.1 + 0.2 == 0.3)     # ?
