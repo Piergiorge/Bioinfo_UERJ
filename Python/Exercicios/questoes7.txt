@@ -1,0 +1,11 @@
+1- Crie uma classe Gene com:
+nome
+cromossomo
+posição inicial
+posição final
+método tamanho()
+
+2- Crie uma classe Sequencia com:
+atributo seq
+método gc()
+método reverse_complement()
