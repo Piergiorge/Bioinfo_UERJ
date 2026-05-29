@@ -13,3 +13,9 @@ Este repositório foi criado para apoiar estudantes que estão começando na ár
 * referência para estudos individuais
 * base para projetos iniciais em bioinformática
 * repositório de exemplos que você poderá adaptar em pesquisas futuras
+
+
+
+<span style="font-size:11px; color:gray;">
+  Esse material foi feito com o auxílio de Gemini.
+</span>
